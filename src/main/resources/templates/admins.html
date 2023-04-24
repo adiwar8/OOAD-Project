@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head th:replace="fragments/head :: head"></head>
+  <body>
+    <div class="container-scroller">
+
+      <nav class="sidebar sidebar-offcanvas" id="sidebar" th:replace="fragments/sidebar :: sidebar"></nav>
+
+      <div class="container-fluid page-body-wrapper">
+
+        <nav class="navbar p-0 fixed-top d-flex flex-row" th:replace="fragments/navbar :: navbar"></nav>
+
+        <div class="main-panel">
+          <div class="content-wrapper">
+
+            <div class="row">
+              <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Order Status</h4>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th> Avatar </th>
+                            <th> First Name </th>
+                            <th> Last Name </th>
+                            <th> Email </th>
+                            <th> Role </th>
+                          </tr>
+                        </thead>
+                        <tbody th:each="user : ${allUsers}">
+
+                          <tr th:if="${user.isAdmin}">
+                            <td>
+                              <a href="#" th:href="@{|/employee/${user.email}|}"><img th:src="${user.image}" src="assets/images/faces/face2.jpg" alt="image"/></a>
+                            </td>
+                            <td th:text="${user.fname}"> First </td>
+                            <td th:text="${user.lname}"> Last </td>
+                            <td th:text="${user.email}"> user@gmail.com </td>
+
+                            <td th:if="${user.isAdmin == false}">
+                              <a href="/employees/employee"><div class="badge badge-outline-warning">Employee</div></a>
+                            </td>
+
+                            <td th:if="${user.isAdmin}">
+                              <a href="/employees/admin"><div class="badge badge-outline-danger">Admin</div></a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/vendors/js/vendor.bundle.base.js"></script>
+
+    <script src="/assets/vendors/chart.js/Chart.min.js"></script>
+    <script src="/assets/vendors/progressbar.js/progressbar.min.js"></script>
+    <script src="/assets/vendors/jvectormap/jquery-jvectormap.min.js"></script>
+    <script src="/assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="/assets/vendors/owl-carousel-2/owl.carousel.min.js"></script>
+
+    <script src="/assets/js/off-canvas.js"></script>
+    <script src="/assets/js/hoverable-collapse.js"></script>
+    <script src="/assets/js/misc.js"></script>
+    <script src="/assets/js/settings.js"></script>
+
+    <script src="/assets/js/dashboard.js"></script>
+  </body>
+</html>

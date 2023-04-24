@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BugtrackerApplication<bugtracker>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.oliverr.bugtracker.BugtrackerApplication",
+            "projectName": "bugtracker",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
