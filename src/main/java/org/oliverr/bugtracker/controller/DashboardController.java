@@ -47,6 +47,7 @@ public class DashboardController {
         model.addAttribute("uncompletedTasks", tr.uncompletedTaskCount(loggedUser.getId()));
 
         model.addAttribute("projects", pr.getProjects(loggedUser.getId()));
+        model.addAttribute("unreadNotification", nr.getUnreadNotifications(loggedUser.getId()));
 
         model.addAttribute("todo", new Todo());
         ur.updateLastLoginDate(loggedUser.getId());
