@@ -1,0 +1,115 @@
+2023-04-26 00:11:29,986 [http-nio-8081-exec-8] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:11:29,988 [http-nio-8081-exec-8] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:11:45,393 [http-nio-8081-exec-7] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:11:45,394 [http-nio-8081-exec-7] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:12:11,418 [http-nio-8081-exec-10] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:12:11,419 [http-nio-8081-exec-10] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:12:12,142 [http-nio-8081-exec-4] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:12:12,143 [http-nio-8081-exec-4] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:12:12,518 [http-nio-8081-exec-1] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:12:12,518 [http-nio-8081-exec-1] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:12:24,493 [http-nio-8081-exec-5] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:12:24,494 [http-nio-8081-exec-5] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:12:33,381 [http-nio-8081-exec-7] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:12:33,381 [http-nio-8081-exec-7] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:12:55,625 [http-nio-8081-exec-2] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:12:55,626 [http-nio-8081-exec-2] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:13:20,119 [http-nio-8081-exec-8] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:13:20,120 [http-nio-8081-exec-8] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:13:35,291 [http-nio-8081-exec-9] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:13:35,292 [http-nio-8081-exec-9] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:14:26,991 [http-nio-8081-exec-6] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:14:26,992 [http-nio-8081-exec-6] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:15:09,763 [http-nio-8081-exec-10] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:15:09,764 [http-nio-8081-exec-10] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:15:24,061 [http-nio-8081-exec-4] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:15:24,062 [http-nio-8081-exec-4] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:15:38,025 [http-nio-8081-exec-1] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:15:38,026 [http-nio-8081-exec-1] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:15:38,601 [http-nio-8081-exec-3] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:15:38,602 [http-nio-8081-exec-3] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:15:38,993 [http-nio-8081-exec-7] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:15:38,994 [http-nio-8081-exec-7] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:15:39,151 [http-nio-8081-exec-10] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:15:39,151 [http-nio-8081-exec-10] INFO  c.s.controller.NoteController - search by CAT:Urgent
+2023-04-26 00:20:11,678 [http-nio-8081-exec-9] INFO  c.s.controller.NoteController - NOTE EXPORT: Note[id=4, author='null', shared='null', category='null', name='null', text='null', htmlSnippet='null', html='null', dtModified='null']
+2023-04-26 00:20:12,129 [http-nio-8081-exec-9] INFO  ca.skylinedata.util.Util - Processing note 4, page 1, add header/footer
+2023-04-26 00:20:12,145 [http-nio-8081-exec-9] INFO  ca.skylinedata.util.Util - PDF Created: C:\Users\Asus\AppData\Local\Temp\/Bug#2.pdf
+2023-04-26 00:20:12,146 [http-nio-8081-exec-9] INFO  ca.skylinedata.util.Util - NOTE EXPORT: C:\Users\Asus\AppData\Local\Temp\/tmp_export.zip
+2023-04-26 00:20:22,203 [http-nio-8081-exec-1] INFO  c.s.controller.NoteController - NOTE EXPORT: Note[id=8, author='null', shared='null', category='null', name='null', text='null', htmlSnippet='null', html='null', dtModified='null']
+2023-04-26 00:20:22,246 [http-nio-8081-exec-1] INFO  ca.skylinedata.util.Util - Processing note 8, page 1, add header/footer
+2023-04-26 00:20:22,249 [http-nio-8081-exec-1] INFO  ca.skylinedata.util.Util - PDF Created: C:\Users\Asus\AppData\Local\Temp\/Untitled-2023-04-26T001833.09.pdf
+2023-04-26 00:20:22,250 [http-nio-8081-exec-1] INFO  c.s.controller.NoteController - NOTE EXPORT: Note[id=7, author='null', shared='null', category='null', name='null', text='null', htmlSnippet='null', html='null', dtModified='null']
+2023-04-26 00:20:22,293 [http-nio-8081-exec-1] INFO  ca.skylinedata.util.Util - Processing note 7, page 1, add header/footer
+2023-04-26 00:20:22,296 [http-nio-8081-exec-1] INFO  ca.skylinedata.util.Util - PDF Created: C:\Users\Asus\AppData\Local\Temp\/Untitled-2023-04-26T001829.525.pdf
+2023-04-26 00:20:22,296 [http-nio-8081-exec-1] INFO  c.s.controller.NoteController - NOTE EXPORT: Note[id=4, author='null', shared='null', category='null', name='null', text='null', htmlSnippet='null', html='null', dtModified='null']
+2023-04-26 00:20:22,339 [http-nio-8081-exec-1] INFO  ca.skylinedata.util.Util - Processing note 4, page 1, add header/footer
+2023-04-26 00:20:22,341 [http-nio-8081-exec-1] INFO  ca.skylinedata.util.Util - PDF Created: C:\Users\Asus\AppData\Local\Temp\/Bug#2.pdf
+2023-04-26 00:20:22,341 [http-nio-8081-exec-1] INFO  ca.skylinedata.util.Util - NOTE EXPORT: C:\Users\Asus\AppData\Local\Temp\/tmp_export.zip
+2023-04-26 00:26:14,329 [http-nio-8081-exec-4] INFO  c.s.controller.NoteController - search by KEYWORD:fix
+2023-04-26 00:26:14,329 [http-nio-8081-exec-4] INFO  c.s.controller.NoteController - search by CAT:
+2023-04-26 00:26:23,191 [http-nio-8081-exec-6] INFO  c.s.controller.NoteController - search by KEYWORD:
+2023-04-26 00:26:23,191 [http-nio-8081-exec-6] INFO  c.s.controller.NoteController - search by CAT:Syntax
+2023-04-26 00:26:40,772 [http-nio-8081-exec-5] INFO  c.s.controller.NoteController - NOTE EXPORT: Note[id=9, author='null', shared='null', category='null', name='null', text='null', htmlSnippet='null', html='null', dtModified='null']
+2023-04-26 00:26:40,829 [http-nio-8081-exec-5] INFO  ca.skylinedata.util.Util - Processing note 9, page 1, add header/footer
+2023-04-26 00:26:40,834 [http-nio-8081-exec-5] INFO  ca.skylinedata.util.Util - PDF Created: C:\Users\Asus\AppData\Local\Temp\/Bug#3.pdf
+2023-04-26 00:26:40,835 [http-nio-8081-exec-5] INFO  c.s.controller.NoteController - NOTE EXPORT: Note[id=4, author='null', shared='null', category='null', name='null', text='null', htmlSnippet='null', html='null', dtModified='null']
+2023-04-26 00:26:40,873 [http-nio-8081-exec-5] INFO  ca.skylinedata.util.Util - Processing note 4, page 1, add header/footer
+2023-04-26 00:26:40,875 [http-nio-8081-exec-5] INFO  ca.skylinedata.util.Util - PDF Created: C:\Users\Asus\AppData\Local\Temp\/Bug#2.pdf
+2023-04-26 00:26:40,876 [http-nio-8081-exec-5] INFO  ca.skylinedata.util.Util - NOTE EXPORT: C:\Users\Asus\AppData\Local\Temp\/tmp_export.zip
+2023-04-26 10:18:10,877 [restartedMain] INFO  ca.skylinedata.App - Starting App using Java 17.0.6 on LAPTOP-I5LIEQ6S with PID 18772 (C:\springboot-notes-app-main\target\classes started by Asus in C:\springboot-notes-app-main)
+2023-04-26 10:18:10,885 [restartedMain] INFO  ca.skylinedata.App - The following 1 profile is active: "windows"
+2023-04-26 10:18:14,221 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-04-26 10:18:14,221 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-26 10:18:14,221 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-04-26 10:18:14,425 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-26 10:18:14,889 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 10:18:15,057 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-04-26 10:18:15,489 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-26 10:18:15,737 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.sqlite.hibernate.dialect.SQLiteDialect
+2023-04-26 10:18:15,825 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-04-26 10:18:16,053 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-04-26 10:18:16,069 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.sqlite.hibernate.dialect.SQLiteDialect
+2023-04-26 10:18:17,908 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 10:18:19,160 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-26 10:18:20,821 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-04-26 10:18:21,000 [restartedMain] INFO  ca.skylinedata.App - Started App in 10.959 seconds (JVM running for 12.698)
+2023-04-26 10:18:21,441 [restartedMain] INFO  ca.skylinedata.util.Util - Notes in the DB: 1
+2023-04-26 10:20:31,821 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-26 10:21:41,813 [restartedMain] INFO  ca.skylinedata.App - Starting App using Java 17.0.6 on LAPTOP-I5LIEQ6S with PID 18656 (C:\springboot-notes-app-main\target\classes started by Asus in C:\springboot-notes-app-main)
+2023-04-26 10:21:41,822 [restartedMain] INFO  ca.skylinedata.App - The following 1 profile is active: "windows"
+2023-04-26 10:21:44,966 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-04-26 10:21:44,968 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-26 10:21:44,969 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-04-26 10:21:45,174 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-26 10:21:45,673 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 10:21:45,834 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-04-26 10:21:46,198 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-26 10:21:46,389 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.sqlite.hibernate.dialect.SQLiteDialect
+2023-04-26 10:21:46,467 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-04-26 10:21:46,668 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-04-26 10:21:46,688 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.sqlite.hibernate.dialect.SQLiteDialect
+2023-04-26 10:21:48,169 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 10:21:49,261 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-26 10:21:50,606 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-04-26 10:21:50,689 [restartedMain] INFO  ca.skylinedata.App - Started App in 9.644 seconds (JVM running for 11.367)
+2023-04-26 10:21:51,001 [restartedMain] INFO  ca.skylinedata.util.Util - Notes in the DB: 1
+2023-04-26 10:21:58,882 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-26 11:13:33,830 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-04-26 11:13:33,833 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-04-26 11:13:33,920 [restartedMain] INFO  ca.skylinedata.App - Starting App using Java 17.0.6 on LAPTOP-I5LIEQ6S with PID 18656 (C:\springboot-notes-app-main\target\classes started by Asus in C:\springboot-notes-app-main)
+2023-04-26 11:13:33,920 [restartedMain] INFO  ca.skylinedata.App - The following 1 profile is active: "windows"
+2023-04-26 11:13:34,331 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-04-26 11:13:34,331 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-26 11:13:34,332 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-04-26 11:13:34,352 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-26 11:13:34,416 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 11:13:34,425 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2023-04-26 11:13:34,428 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2023-04-26 11:13:34,429 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.sqlite.hibernate.dialect.SQLiteDialect
+2023-04-26 11:13:34,471 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 11:13:34,553 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-26 11:13:34,698 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-04-26 11:13:34,704 [restartedMain] INFO  ca.skylinedata.App - Started App in 0.823 seconds (JVM running for 3115.383)
+2023-04-26 11:13:34,725 [restartedMain] INFO  ca.skylinedata.util.Util - Notes in the DB: 2
+2023-04-26 11:13:34,849 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
