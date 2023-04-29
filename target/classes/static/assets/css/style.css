@@ -21030,3 +21030,7 @@ div.tagsinput {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+#id::onClick()
+{
+  background-color: white;
+}

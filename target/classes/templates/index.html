@@ -122,6 +122,7 @@
             </div>
 
             <div class="row">
+<<<<<<< Updated upstream
 
 <<<<<<< Updated upstream
               <div class="col-md-6 col-xl-6 grid-margin stretch-card">
@@ -152,10 +153,13 @@
 =======
 >>>>>>> Stashed changes
 
+=======
+>>>>>>> Stashed changes
               <div class="col-md-6 col-xl-6 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
                     <h4 class="card-title">To do list</h4>
+                    <Button style="height:30px;border-radius:5px;background-color:#191c24;color:white;border-color:black" id="yes" onCLick="window.location='http://localhost:8081/add'">Editor</button></br>
                     <form id="addtodo" th:action="@{/addtodo/}" th:object="${todo}" method="post" class="add-items d-flex">
                       <input maxlength="46" type="text" id="taskField" th:field="*{task}" class="form-control todo-list-input" placeholder="enter task..." required>
                       <button id="todoAdd" class="add btn btn-primary todo-list-add-btn" type="submit">Add</button>
