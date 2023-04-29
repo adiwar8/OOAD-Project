@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head th:replace="fragments/head :: head"></head>
+  <body>
+    <div class="container-scroller">
+
+      <nav class="sidebar sidebar-offcanvas" id="sidebar" th:replace="fragments/sidebar :: sidebar"></nav>
+
+      <div class="container-fluid page-body-wrapper">
+
+        <nav class="navbar p-0 fixed-top d-flex flex-row" th:replace="fragments/navbar :: navbar"></nav>
+
+        <div class="main-panel">
+          <div class="content-wrapper">
+
+            <div class="row">
+              <div class="col-md-6 col-sm-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h5>Profile information</h5>
+
+                    <div class="row mt-4 mb-4">
+                      <div class="col-6 col-sm-6 col-xl-5">
+                        <img width="120px" th:src="${user.image}" src="/assets/images/faces/face11.jpg" alt="Profile Picture" class="ml-2">
+                      </div>
+                      <div class="col-6 col-sm-6 col-xl-7">
+                        <h6 class="mb-1">Full Name:</h6>
+                        <p class="text-muted mb-0"><span th:text="${user.fname}"></span> <span th:text="${user.lname}"></span></p>
+
+                        <h6 class="mb-1 mt-4">Email:</h6>
+                        <p class="text-muted mb-0" th:text="${user.email}"></p>
+                      </div>
+                    </div>
+                    <hr style="background-color: #292d38;">
+                    <div class="row mt-3">
+                        <div class="col-6">
+                          <h6 class="mb-1 mt-4">Completed Bugs:</h6>
+                          <p class="text-muted mb-0" th:text="${completedBugs}">0</p>
+                        </div>
+                        <div class="col-6">
+                          <h6 class="mb-1 mt-4">Completed Tasks:</h6>
+                          <p class="text-muted mb-0" th:text="${completedTasks}">0</p>
+                        </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Change Password</h4>
+
+                    <form class="forms-sample" th:object="${changePassword}" th:action="@{/password/change}" method="post">
+
+                      <div th:if="${param.wrongpassword}" class="row mb-4 alert alert-danger">
+                        Wrong password!
+                      </div>
+
+                      <div th:if="${param.notmatch}" class="row mb-4 alert alert-danger">
+                        The two passwords do not match!
+                      </div>
+
+                      <div th:if="${param.success}" class="row mb-4 alert alert-success">
+                        You have successfully changed your password!
+                      </div>
+
+                      <div class="form-group row mb-4">
+                        <label for="old-password" class="col-sm-3 col-form-label">Old Password:</label>
+                        <div class="col-sm-9">
+                          <input type="password" th:field="*{oldPassword}" class="form-control" id="old-password" placeholder="Old Password" required>
+                        </div>
+                      </div>
+
+                      <hr style="background-color: #292d38;">
+
+                      <div class="form-group row mt-4">
+                        <label for="new-password" class="col-sm-3 col-form-label">New Password:</label>
+                        <div class="col-sm-9">
+                          <input type="password" th:field="*{newPassword}" class="form-control" id="new-password" placeholder="New Password" required>
+                        </div>
+                      </div>
+
+                      <div class="form-group row">
+                        <label for="repeat-password" class="col-sm-3 col-form-label">New Password:</label>
+                        <div class="col-sm-9">
+                          <input type="password" th:field="*{newPasswordAgain}" class="form-control" id="repeat-password" placeholder="Repeat New Password" required>
+                        </div>
+                      </div>
+
+                      <button type="submit" class="btn btn-danger mr-2 mt-2">Change</button>
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/vendors/js/vendor.bundle.base.js"></script>
+
+    <script src="/assets/vendors/chart.js/Chart.min.js"></script>
+    <script src="/assets/vendors/progressbar.js/progressbar.min.js"></script>
+    <script src="/assets/vendors/jvectormap/jquery-jvectormap.min.js"></script>
+    <script src="/assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="/assets/vendors/owl-carousel-2/owl.carousel.min.js"></script>
+
+    <script src="/assets/js/off-canvas.js"></script>
+    <script src="/assets/js/hoverable-collapse.js"></script>
+    <script src="/assets/js/misc.js"></script>
+    <script src="/assets/js/settings.js"></script>
+
+    <script src="/assets/js/dashboard.js"></script>
+  </body>
+</html>
