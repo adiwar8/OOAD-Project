@@ -17,7 +17,7 @@
 - Profile page
 - Password changing option
 - List of bugs, tasks, and projects
-- Notifications
+
 
 ## Setup
 Download [git](https://git-scm.com/) and [maven](https://maven.apache.org/download.cgi)<br><br>
